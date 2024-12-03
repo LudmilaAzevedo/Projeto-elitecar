@@ -1,4 +1,4 @@
-async function enviaFormulario() {
+async function enviarFormulario() {
     //recuperar as informações do formulário e colocar em objeto JSON
     const carroDTO = {
         "marca": document.querySelectorAll("input")[0].value,
